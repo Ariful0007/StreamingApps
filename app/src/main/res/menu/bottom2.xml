@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/ic_home"/>
+    <item android:title=" Live Panel "
+        android:id="@+id/startlive"
+        android:icon="@drawable/ic_baseline_videocam_24"/>
+    <item android:title="Live List"
+    android:id="@+id/livelist"
+    android:icon="@drawable/ic_baseline_videocam_24"/>
+    <item android:title="Create Channel"
+        android:id="@+id/ctreate"
+        android:icon="@drawable/ic_baseline_create_24"/>
+
+    <item android:title="Profile"
+        android:id="@+id/uiserr"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"/>
+    <item
+        android:id="@+id/mypost"
+
+        android:icon="@drawable/ic_baseline_vpn_key_24"
+        android:title="Logout"
+        />
+
+
+</menu>

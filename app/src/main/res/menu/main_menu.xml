@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Minimize"
+        android:id="@+id/emergency"
+        android:tooltipText="Minimize"
+
+        android:icon="@drawable/minimize"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="List"
+        android:id="@+id/request"
+        android:tooltipText="List"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/man"
+        />
+    <item android:title="Exit"
+        android:id="@+id/covid"
+        android:tooltipText="Exit"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/button"
+        />
+
+
+</menu>

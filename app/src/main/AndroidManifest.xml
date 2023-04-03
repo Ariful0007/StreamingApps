@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.meass.streamingapps">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".JoinAsHost"></activity>
+        <activity android:name=".JoinAsUserActivity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".CreatChanelActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity android:name=".SecondHome" />
+        <activity android:name=".DetailsGiveActivity" />
+        <activity android:name=".HostRegisteration" />
+        <activity android:name=".HostRegistrationActivity" />
+        <activity android:name=".SecotrActivity" />
+        <activity
+            android:name=".SecondDemoStreaming"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".StartLivevvve"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".StreamingDemo"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".UserJoinRequestList"
+            android:parentActivityName=".HomeActivity" />
+        <activity android:name=".Register2" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".CallingDemo"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
